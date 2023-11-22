@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""calculates how much you should leave as a tip"""
+"""calculates how much one should pay plus the tip"""
 
 print("Welcome to the tip calculator!")
 bill = input("What was the total bill? $")
