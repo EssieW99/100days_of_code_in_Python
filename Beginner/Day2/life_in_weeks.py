@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """calculates how many weeks one has left
-if they were to love to 90 years
+if they were to live to 90 years
 """
 
 # get the current age
