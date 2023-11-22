@@ -2,9 +2,9 @@
 
 """calculates how much you should leave as a tip"""
 
-print("Welcome to the tip calculator")
+print("Welcome to the tip calculator!")
 bill = input("What was the total bill? $")
-tip = input("What percentage tip would you like to give? 10, 12, 0r 15? ")
+tip = input("What percentage tip would you like to give? 10, 12, or 15? ")
 people = input("How many people to split the bill? ")
 
 # calculate the amount of the tip
@@ -18,4 +18,4 @@ amount = total_bill / int(people)
 amount_roundedoff = round(amount, 2)
 
 # print
-print("Each person should pay ${:.2f}".format(amount_roundedoff))
+print("Each person should pay: ${:.2f}".format(amount_roundedoff))
